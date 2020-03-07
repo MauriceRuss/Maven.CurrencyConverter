@@ -23,8 +23,8 @@ public enum CurrencyType {
     public Double getRate() {
         return rate;
     }
-
+    //changed return to currency.getType()
     public static CurrencyType getTypeOfCurrency(ConvertableCurrency currency) {
-        return null;
+        return currency.getType();
     }
 }
